@@ -1,0 +1,25 @@
+{
+  "name": "doey",
+  "version": "1.0.0",
+  "description": "A simple interface for Google Home Control",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/blakeman399/doey.git"
+  },
+  "author": "Blake Mastrud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeman399/doey/issues"
+  },
+  "homepage": "https://github.com/blakeman399/doey#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.78.0"
+  }
+}
